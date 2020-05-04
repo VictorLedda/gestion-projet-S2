@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+}
+.image{
+    width: 350px;
+    max-height: 300px;
+}
+.titre{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+#dernieres-actualites{
+    padding-top: 100px;
+    background-color: #CFCFCF ;
+    height: 500px;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+#dernieres-actualites div{
+    margin-right: 100px;
+}
+body{
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+}
+.button {
+    float: right;
+    background-color: #85ABE8;
+    border-radius: 5px 10px;
+   
+    margin-right: 100px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    }
+
+.button:hover{
+    background-color: #699EF5;
+    transition-duration: 0.5s;
+}
+
+.button a{
+        text-decoration: none;
+        color:white;
+    }
